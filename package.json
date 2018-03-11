@@ -1,0 +1,23 @@
+{
+  "name": "gqltinker",
+  "version": "1.0.0",
+  "description": "tinkering",
+  "main": "index.js",
+  "repository": "https://github.com/knitero/gqltinker.git",
+  "author": "Ronny <ronny@knitec.co.za>",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "mongoose": "^5.0.9"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
